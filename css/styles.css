@@ -1,0 +1,151 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* The above is CSS Reset */
+
+html {
+  font-size: 16px;
+}
+
+ .main-content {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+ }
+
+ .side-banner {
+  position: relative;
+  text-align: center;
+ }
+
+ .banner-header {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: antiquewhite;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+ }
+
+ .side-banner .img-credit {
+
+ }
+
+ #background-img {
+  max-width: 80vh;
+  object-fit: contain;
+ }
+
+ .form-div {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .form-header {
+  padding: 2rem;
+  padding-top: 10rem;
+  font-size: 2rem;
+ }
+
+ .form-header em {
+  font-style: italic
+ }
+
+ .form-header p:nth-child(2) {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+ }
+
+ .account-info {
+  display: flex;
+  padding: 0.5rem;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+ }
+
+ .form-container h2 {
+  padding: 2rem;
+  font-size: 2rem;
+ }
+
+ #col-left {
+  max-width: 50;
+ }
+
+ #col-right {
+  padding-left: 3rem;
+  min-width: none;
+ }
+
+ .account-create {
+  padding: 1rem;
+ }
+
+ .account-create button {
+  padding: 1rem 3rem;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  background-color: rgba(64, 103, 64, 1);
+  color: antiquewhite;
+  border-radius: 0.6rem;
+  border: none;
+ }
+
+ .account-create P:nth-child(2) {
+  padding: 1rem;
+ }
+
+ .account-create a {
+  color: rgba(64, 103, 64, 1);
+  text-decoration: none;
+ }
+
+ .account-create a:hover {
+  text-decoration: underline;
+ }
