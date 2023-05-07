@@ -121,9 +121,11 @@ html {
  }
 
  .form-header {
+   font-size: 1.8rem;
   padding: 2rem;
   padding-top: 10rem;
-  font-size: 2rem;
+  margin-right: 10rem;
+  min-width: 30vh;
  }
 
  .form-header em {
@@ -131,8 +133,12 @@ html {
  }
 
  .form-header p:nth-child(2) {
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
+ }
+
+ form {
+  box-shadow: 0 -4px 3px -3px lightblue;
  }
 
  .account-info {
@@ -140,12 +146,34 @@ html {
   padding: 0.5rem;
   flex-direction: row;
   justify-content: flex-start;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  padding-left: 2rem;
+  min-height: 8rem;
+  box-shadow: 0 4px 3px -3px lightblue;
  }
 
  .form-container h2 {
   padding: 2rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
+ }
+
+ input, label {
+  display: block;
+ }
+
+ input {
+  max-width: 15rem;
+  background: transparent;
+  border: 0.5px solid transparent
+ }
+
+ input:hover {
+  border: 0.5px solid lightblue;
+ }
+
+ input:focus {
+  outline: none !important;
+  border: 0.5px solid blue;
  }
 
  #col-left {
@@ -153,18 +181,18 @@ html {
  }
 
  #col-right {
-  padding-left: 3rem;
+  margin-left: 8rem;
   min-width: none;
  }
 
  .account-create {
-  padding: 1rem;
+  margin-top: 3rem;
  }
 
  .account-create button {
   padding: 1rem 3rem;
-  margin-left: 1rem;
-  font-size: 1.2rem;
+  margin-left: 2rem;
+  font-size: 1em;
   background-color: rgba(64, 103, 64, 1);
   color: antiquewhite;
   border-radius: 0.6rem;
@@ -172,7 +200,8 @@ html {
  }
 
  .account-create P:nth-child(2) {
-  padding: 1rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
  }
 
  .account-create a {
