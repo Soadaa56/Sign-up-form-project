@@ -45,7 +45,7 @@ table {
 
 @font-face {
   font-family: 'myFont';
-  src: url(fonts/Norse-Bold.otf);
+  src: url(../fonts/Norse-Bold.otf);
 }
 
 body {
@@ -68,7 +68,7 @@ html {
   position: relative;
   text-align: center;
   max-width: 70vh;
-  min-width: 60vh;
+  min-width: 22vh;
   min-height: 100%;
   display: flex;
   justify-content: center;
@@ -121,8 +121,6 @@ html {
 
  #background-img {
   max-width: 100%;
-  height: 100%;
-  object-fit: cover;
  }
 
  .form-div {
@@ -173,10 +171,6 @@ html {
   display: block;
  }
 
- label {
-  
- }
-
  input {
   min-width: 15rem;
   min-height: 1rem;
@@ -184,7 +178,7 @@ html {
   border: 0.5px solid transparent;
   margin-bottom: 1rem;
   border-radius: 0.4rem;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
  }
 
  input:hover {
@@ -194,6 +188,7 @@ html {
  input:focus {
   outline: none !important;
   border: 0.5px solid blue;
+  box-shadow: 0.5px 0.5px 2px 1px blue;
  }
 
  input:valid {
