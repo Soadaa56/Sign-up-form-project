@@ -171,12 +171,16 @@ html {
   display: block;
  }
 
+ label {
+  margin-top: 0.5rem;
+ }
+
  input {
   min-width: 15rem;
   min-height: 1rem;
   background: transparent;
   border: 0.5px solid transparent;
-  margin-bottom: 1rem;
+  margin-top: 0.5rem;
   border-radius: 0.4rem;
   font-size: 1.1rem;
  }
