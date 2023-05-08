@@ -15,9 +15,12 @@
   <div class="main-content">
     <div class="side-banner">
       <div class="banner-img">
-        <img id="background-img" src="./imgs/halie-west-25xggax4bSA-unsplash.jpg" alt="Leaves in a forest">
+        <img id="background-img" src="./imgs/halie-west-unsplash.jpg" alt="Leaves in a forest">
       </div>
-      <div class="banner-header">Odin</div>
+      <div class="banner-header">
+        <img id="banner-logo" src="./imgs/odin-lined.png">
+        <span>Odin<span>
+      </div>
       <div class="img-credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash<a></a></div>
     </div>
     <div class="form-div">
@@ -34,19 +37,19 @@
             <label for="first_name">
               <span>First Name</span>
             </label>
-            <input type="text" id="first_name" name="username1" tabindex="1">
+            <input type="text" id="first_name" name="username1" required tabindex="1">
           </p>
           <p>
             <label for="email">
               <span>Email</span>
             </label>
-            <input type="email" id="email" name="useremail" tabindex="3">
+            <input type="email" id="email" name="useremail" required tabindex="3">
           </p>
           <p>
             <label for="password">
               <span>Password</span>
             </label>
-            <input type="password" id="password" name="userpassword" tabindex="5">
+            <input type="password" id="password" name="userpassword" required tabindex="5">
           </p>
         </fieldset>
         <fieldset id="col-right">
@@ -54,19 +57,19 @@
           <label for="last_name">
             <span>Last Name</span>
           </label>
-          <input type="text" id="last_name" name="username2" tabindex="2">
+          <input type="text" id="last_name" name="username2" required tabindex="2">
         </p>
         <p>
           <label for="phone_number">
             <span>Phone Number</span>
           </label>
-          <input type="tel" name="phone_number" id="userphonenumber" tabindex="4">
+          <input type="tel" name="phone_number" id="userphonenumber" required tabindex="4">
         </p>
         <p>
           <label for="password_confirm">
             <span>Confirm Password</span>
           </label>
-          <input type="text" id="password_confirm" name="userpasswordconfirm" tabindex="6">
+          <input type="password" id="password_confirm" name="userpasswordconfirm" required tabindex="6">
         </p>
       </fieldset>
         </section>
