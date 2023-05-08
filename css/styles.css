@@ -68,7 +68,6 @@ html {
   position: relative;
   text-align: center;
   max-width: 70vh;
-  min-width: 22vh;
   min-height: 100%;
   display: flex;
   justify-content: center;
@@ -90,6 +89,7 @@ html {
   font-family: 'myFont', serif;
   display: flex;
   justify-content: center;
+  overflow: hidden;
  }
 
  .banner-header span {
@@ -121,6 +121,8 @@ html {
 
  #background-img {
   max-width: 100%;
+  min-height: 1000px;
+  min-width: 100%;
  }
 
  .form-div {
